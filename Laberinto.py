@@ -10,8 +10,8 @@ def main():
     mensaje = "Bienvenid@ al juego"
     print("¡Hola" + nombre_jugador + "!")
     print(mensaje)
-    
-    print("para salir del bucle, presiona la flecha arriba")
+
+    print("Para salir del bucle, presiona la flecha arriba")  
 
     while True:
         tecla_2 = readchar.readkey()
@@ -29,4 +29,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
 
